@@ -34,8 +34,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v2
         with:
           images: |
-            nginxproxy/nginx-proxy
-            jwilder/nginx-proxy
+            masfrost/nginx-proxy
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}

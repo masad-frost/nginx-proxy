@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx-proxy:
-    image: nginxproxy/nginx-proxy
+    image: masfrost/nginx-proxy
     container_name: nginx-proxy
     ports:
       - "80:80"
